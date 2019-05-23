@@ -1,0 +1,19 @@
+Link : https://angular.io
+
+To create a new project:
+-------------------------
+ng new firstApp
+
+To launch the server by CLI:
+-----------------------------
+ng serve --open
+(OR)
+ng serve
+
+Note : --open means that to open the browser automatically
+
+To Kill current running IP:
+-----------------------------
+lsof -i:4200 (To know processor number)
+
+kill -9 25452 (Kill the processor number)
